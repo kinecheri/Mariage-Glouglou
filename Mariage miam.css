@@ -12,7 +12,7 @@ body {
 .container {
   max-width: 650px;
   margin: 60px auto;
-  background: rgba(255, 255, 255, 0.85); /* voile blanc semi-transparent */
+  background: rgba(255, 255, 255, 0.50); /* voile blanc semi-transparent */
   border-radius: 20px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.05);
   overflow: hidden;
@@ -99,4 +99,5 @@ footer {
   color: #777;
   margin-top: 30px;
 }
+
 
