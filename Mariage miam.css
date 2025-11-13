@@ -1,6 +1,6 @@
 /* --- FOND GLOBAL --- */
 body {
-  background: url("image-invitation-mariage.png") no-repeat center center fixed;
+  background: url("Image invitation mariage.png") no-repeat center center fixed;
   background-size: cover; /* l’image remplit tout l’écran */
   margin: 0;
   padding: 0;
@@ -12,13 +12,12 @@ body {
 .container {
   max-width: 650px;
   margin: 60px auto;
-  background: rgba(255, 255, 255, 0.5); /* voile blanc semi-transparent */
+  background: rgba(255, 255, 255, 0.50); /* voile blanc semi-transparent */
   border-radius: 20px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.05);
   overflow: hidden;
   position: relative;
   backdrop-filter: blur(3px); /* petit effet flou pour plus de douceur */
-  -webkit-backdrop-filter: blur(3px); /* compatibilité Safari */
 }
 
 /* --- TOUCHE PASTEL EN FOND --- */
@@ -69,7 +68,6 @@ p {
   font-size: 1em;
   line-height: 1.6;
   margin: 10px 0;
-  color: #444;
 }
 
 /* --- BOUTON --- */
@@ -102,19 +100,5 @@ footer {
   margin-top: 30px;
 }
 
-/* --- RESPONSIVE --- */
-@media (max-width: 600px) {
-  .container {
-    margin: 30px 15px;
-    padding: 20px;
-  }
 
-  h1 {
-    font-size: 1.4em;
-  }
-
-  p {
-    font-size: 0.95em;
-  }
-}
 
